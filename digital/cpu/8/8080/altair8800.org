@@ -1,0 +1,35 @@
+- wiki https://en.wikipedia.org/wiki/Altair_8800
+  - 1975-
+  - Microcomputer
+  - A computer kit
+  - by MITS
+    - Creators:
+      - Ed Roberts
+      - Bill Yates
+  - CPU: Intel 8080
+
+* Images
+
+- leds
+  - 8 for data
+  - 16 for address
+- switches
+  - 16 for the data bus
+  - single step
+
+#+CAPTION: Frontpanel
+#+ATTR_ORG: :width 1500
+[[./Living_Computers_-_Altair_8800_(39802981903).50.jpg]]
+
+* Videos
+- Playlist: Altair 8800 Instructional Videos https://www.youtube.com/playlist?list=PLB3mwSROoJ4KLWM8KwK0cD1dhX35wILBj
+- https://www.youtube.com/watch?v=2yyBfw3CARc
+- https://www.youtube.com/watch?v=NXTZ-JNBfeQ
+- https://www.youtube.com/watch?v=cwEmnfy2BhI
+- Altair 8800 - Front Panel Programming Tutorial
+  - #1 https://www.youtube.com/watch?v=7nDcTRqZu8E
+  - #2 https://www.youtube.com/watch?v=f9Tr5pWMy8E
+  - #3 https://www.youtube.com/watch?v=2u6yGWK0cZE
+  - #4
+    https://www.youtube.com/watch?v=eZkUkVIwxTU
+    https://www.youtube.com/watch?v=EvA3NeXkrn4

@@ -1,0 +1,49 @@
+#+CAPTION: fixed, polarized and variable capacitors
+#+ATTR_ORG: :width 200
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Types_of_capacitor.svg/345px-Types_of_capacitor.svg.png]]
+
+- https://en.wikipedia.org/wiki/Capacitor
+- https://www.inventable.eu/2012/09/15/como-se-leen-los-valores-de-los-capacitores/
+
+- *stores* electricity in a ~electrostatic field~
+  - the field of force between 2 electrically charged bodies
+  - _conductors_ separated by an _insulator/dielectric_
+
+- Specs
+  - capacitance = ratio of charge to voltage
+    1 couloumn/volt = 1 farad
+  - Charge (Q) is proportional to Voltage (V)
+    Q = C*V
+
+- =current= responds to the rate of change of =voltage=
+- =current= and =voltage= are NOT proportional
+- =current= leads the =voltage=
+#+CAPTION: voltage/current over time
+[[https://i.sstatic.net/Exhhp.gif]]
+
+- doesn't let the DC through, lets variations through
+- acts as a sort-of frequency-dependent resistor (1/freq)
+  - aka capacitance reactance
+  - high frequency, acts like short circuit
+  - low frequency, acts like open circuit
+- due above can function as
+  - a LPF, useful to clean high freq noise
+  - a HPF
+  - a band filter, by using both LPF+HPF
+
+* Form Factors
+
+|------------------------+----------------------------------+-------------------------------------------------------+-----------------------------|
+|                    <r> | Properties                       | insulator / dielectric                                | conductor                   |
+|------------------------+----------------------------------+-------------------------------------------------------+-----------------------------|
+|           Ceramic Disc | (-) low cost                     | a ceramic disc                                        | metal plates                |
+|                  Glass | (+) capacitance (surface area)   | layers of glass                                       | aluminium foil plates       |
+|     Multilayer Ceramic | (-) small size                   | layers of ceramic                                     | layers of deposited metal   |
+| Aluminium Electrolytic | (+) capacitance/space ratio      | rolled up oxidized long strip of aluminium            | metal can with electrolyte  |
+|                   Film | (+) quality?                     | long strips of plastic film                           |                             |
+|        Dipped Tantalum | (+) capacitance/space ratio      | porous (surface++) pellet of tantalum metal, anodized |                             |
+|  Polymer Tantalum Chip | (+) capacitance/space ratio      | oxidized slug of tantalum                             | layers of carbon and silver |
+|  Polymer Aluminum Chip | (+) low profile                  | oxidized aluminum foils laid flat                     | conductive polymer          |
+|  Three-Terminal Filter | filter, prevents wandering waves | ferrite beads                                         | copper wire                 |
+|------------------------+----------------------------------+-------------------------------------------------------+-----------------------------|
+- Dipped Tantalum has 1(one) correct direction, otherwise it will damage tehoxide layer.

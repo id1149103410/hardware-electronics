@@ -1,0 +1,50 @@
+- wiki https://en.wikipedia.org/wiki/CHIP-8
+  - an interpreted programming language (?
+  - Author: Joseph Weisbecker
+  - ~1978
+  - runs on a 1802 CPU https://en.wikipedia.org/wiki/RCA_1802
+    - 8-bit
+    - Ran on personal computers:
+      - COSMAC VIP
+      - Telmac 1800
+
+- Chip-8: Technical Reference v1.0
+  http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
+
+- https://github.com/tobiasvl/awesome-chip-8
+- https://wiki.xxiivv.com/site/chip8.html
+
+- roms
+  - test rom https://github.com/corax89/chip8-test-rom
+  - many https://github.com/dmatlack/chip8/tree/master/roms/games
+
+- tool: emulator/workbench https://github.com/massung/CHIP-8
+
+* Videos
+
+- (Code Cap) 2h - Javascript - Building and understanding a Virtual Machine in 2hrs (CHIP-8 Emulator)
+  https://wwwa.youtube.com/watch?v=jWpbHC6DtnU
+- (GynvaelEn) Hacking Livestream #34: CHIP-8 VM
+  https://www.youtube.com/watch?v=BQRX3owv2JI
+  https://www.youtube.com/watch?v=locDS3uHv_E
+  https://www.youtube.com/watch?v=9xGgZUMNl2Y
+  https://www.youtube.com/watch?v=adHOlKKbFXM
+  https://www.youtube.com/watch?v=0sphPKO8QTs
+- (Vintage Computer Federation) 20m - Chip 8 Old TEch in a New Light
+  https://www.youtube.com/watch?v=V3ORJUS9YP4
+- (Venkos) 27m - Writing a CHIP-8 emulator (interpreter) in GO - chip8go
+  https://www.youtube.com/watch?v=MBWyVwyBMhk
+- (makigas) Construyendo un emulador CHIP8
+  https://www.youtube.com/playlist?list=PLTd5ehIj0goNh89DWAjXKCYxJQO0ZMxaE
+
+* Implementations
+
+- 12 article: Python http://omokute.blogspot.com/2012/06/emulation-basics-write-your-own-chip-8.html
+- 19 article: C++ https://austinmorlan.com/posts/chip8_emulator/
+- 20 article: Guide to making a CHIP-8 emulator https://tobiasvl.github.io/blog/write-a-chip-8-emulator/
+- C https://github.com/dmatlack/chip8
+- JS https://www.freecodecamp.org/news/creating-your-very-own-chip-8-emulator/
+
+** Lisp: Steve Losh
+Blog: http://stevelosh.com/blog/2016/12/chip8-cpu/
+Source: https://github.com/sjl/cl-chip8

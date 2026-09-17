@@ -1,0 +1,64 @@
+#+DATE: <2024-07-31 mié>
+
+- https://en.wikipedia.org/wiki/Static_random-access_memory
+- by Robert Norman @Fairchild_Semiconductor
+- type of RAM that uses flip-flops (latching circuitry) to store each bit
+- used for cache/registers (while DRAM is used for main memory)
+  - sometimes used as L2 cache on old motherboards (?
+- volatile: data is lost when power is lost
+- holds data permanently, does not decay like *DRAM*
+  - no need to refresh it periodically
+- Control pins
+  - CE Chip Enable
+  - WE Write Enable
+  - OE Output Enable
+  - CLK Clock (optional, for synchronous SRAM)
+
+- tools:
+  - 62256 tester https://github.com/Andre-Fonteles/62256-sram-tester/blob/master/62256-sram-tester.ino
+
+- video:  How to write and read data - LH5168 SRAM
+  https://www.youtube.com/watch?v=wlCNRHnKuBs
+
+* Labeling
+
+For: MC6264L-10PC
+
+|----+-------------------+-----------------|
+| MS | company           | Mosel           |
+| 62 | family code       | MoBL SRAM       |
+| 64 | density           | in Kbit         |
+| L  | Low Power ?       |                 |
+| 10 | speed grade       | in ns           |
+| P  | package           | vendor specific |
+| C  | temperature grade | in centigrades  |
+|----+-------------------+-----------------|
+
+- eg: [[https://en.wikipedia.org/wiki/6264][6264 (64Kbit 8KB)]]
+
+*** Package
+|-----+--------------------------------------+---------|
+|     |                                      |     mil |
+|-----+--------------------------------------+---------|
+| C   | Ceramic Side Brazed DIP              |     300 |
+| CW  | Ceramic Side Brazed DIP              |     600 |
+| D   | Ceramic DIP (CERDIP)                 |     300 |
+| DW  | Ceramic DIP (CERDIP)                 |     600 |
+| F   | CERPACK                              |         |
+| J   | Plastic SOJ                          |     300 |
+| LS  | 28-pin Ceramic LCC - SPECIAL-PINOUT  | 350x550 |
+| L   | 28-pin Ceramic LCC - STANDARD-PINOUT | 350x550 |
+| L32 | 32-pin Ceramic LCC                   | 450x550 |
+| P   | Plastic DIP                          |     300 |
+| P6  | Plastic DIP                          |     600 |
+| SN  | Plastic SOP                          |     300 |
+|-----+--------------------------------------+---------|
+*** Temperature
+|---+--------------+-----+-----|
+|   | name         | min | max |
+|---+--------------+-----+-----|
+| C | Commercial   |   0 | -70 |
+| I | Industrial   | -40 |  85 |
+| A | Automotive-A | -40 |  85 |
+| E | Automotive-E | -40 | 125 |
+|---+--------------+-----+-----|
